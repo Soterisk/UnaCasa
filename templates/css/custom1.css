@@ -1,0 +1,89 @@
+/* Custom CSS for a youthful and modern look */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    background-color: #007bff; /* Bright blue */
+    border-bottom: 3px solid #0056b3;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #d4d4d4 !important;
+}
+
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer .text-muted {
+    margin: 0;
+    font-size: 15px;
+}
+
+/* Button customization */
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #007bff;
+}
+
+/* Utility classes for margin and padding */
+.mt-4 {
+    margin-top: 2rem !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.container {
+    max-width: 1200px; /* Adjust container width */
+}
+
+/* Custom styles for forms and inputs */
+input, textarea {
+    border-radius: 0.25rem;
+}
+
+/* Styling for form elements */
+.form-control {
+    border-radius: 20px; /* Rounded borders for inputs */
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        margin-bottom: 15px;
+    }
+
+    .nav-link, .navbar-brand {
+        font-size: 18px;
+    }
+}
