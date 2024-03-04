@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'UserApp',
     'PropertyApp',
     'ReferralApp',
-    'MessagingApp',
     'ResaleApp',
 ]
 
