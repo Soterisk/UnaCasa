@@ -4,7 +4,7 @@ class Referral(models.Model):
     referral_num = models.AutoField(primary_key=True)
     user = models.ForeignKey('UserApp.CustomUser', on_delete=models.CASCADE)  # New field
     property = models.ForeignKey('PropertyApp.Property', on_delete=models.CASCADE)
-    agent_email = models.ForeignKey('UserApp.Agent', on_delete=models.CASCADE)
+    agent_email = models.EmailField(max_length=254)
     personal_exp = models.TextField(null=True, blank=True)
     availability_date = models.DateField(null=True, blank=True)
     current_rent = models.DecimalField(max_digits=8, decimal_places=2)

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'UserApp',
     'PropertyApp',
     'ReferralApp',
+    'RommateApp',
     'ResaleApp',
 ]
 
